@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "webpart-create-list-react-client-side-solution",
+    "id": "7ce16223-8652-48ac-bb2d-be75469395e0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "webpart-create-list-react description"
+      },
+      "longDescription": {
+        "default": "webpart-create-list-react description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "webpart-create-list-react Feature",
+        "description": "The feature that activates elements of the webpart-create-list-react solution.",
+        "id": "d41c4af1-6527-4077-b1db-3fe5cbd235c5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/webpart-create-list-react.sppkg"
+  }
+}
