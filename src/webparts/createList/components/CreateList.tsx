@@ -29,7 +29,10 @@ export default class CreateList extends React.Component<ICreateListProps, {}> {
             This webpart illustrates how to create and delete an associated list safely
           </p>
           <p>
-            There are two buttons in the property, one to create a list and one to delete. The list will be created with the unique id of the webpart.
+            There are two buttons in the property pane, one to create a list and one to delete. The list will be created with the unique id of the webpart. 
+          </p>
+          <p>
+          The solution checks if the lists exists in the onInit method and is created it if not. The solution also deletes the list using the onDispose method if the list exists when the webpart is removed from the page.
           </p>
           <p>
             List: {uniqueWebpartId}
